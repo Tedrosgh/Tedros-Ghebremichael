@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <style>
+    html {
+            scroll-behavior: smooth;
+        }
+        section {
+            min-height: 100vh;
+        }
+        h1 {
+            padding: 10px;
+            color: orangered;
+            text-align: left;
+            font-family: cursive;
+        }
+        h2 {
+            margin-top: 40px;
+            scroll-margin-top: 50px;
+        }
+        body {
+            margin: 0;
+        }
+        main {
+            margin: 10px;
+        }
+        
+        nav {
+            background-color: blue;
+            padding: 5px 5px;
+            box-shadow: 0 10px 20px #444;
+            position: sticky;
+            top: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-around
+            }
+        nav a {
+            text-decoration: inherit;
+            padding: 5px 15px;
+            color: orangered;
+            background-color: blue;
+            font-size: 20px;
+            font-family: Helvetica;
+            border-right: 6px solid cadetblue;
+            margin-left: -4px;
+        }
+        nav a:hover {
+            background-color: darkslategrey;
+            color: #fff;
+        }
+        nav a:active {
+            background: red;
+        }
+        header {
+            background-image: url(tedros1%20021.jpg);
+            background-size: cover;
+            height: 80px;
+            font-size: 12px;
+            text-align: center;
+            }
+        }
+       
+     table,td,th {
+            border: 1px solid #333;
+            width: 100%;
+            caption-side: bottom;
+        }
+        td, th {
+            padding: 10px 20px;
+    
+        }
+        tr {
+            background: #ddd;
+        }
+        tr:nth-child(odd) {
+            background: #eee;
+        }
+        td:last-child {
+            color: red;
+            background-color: aqua
+        }
+        td:first-child {
+            color: blue;
+            width: 45%
+        }
+        .p {
+            color: chartreuse
+        }
+        figure {
+            position: relative;
+      
+
+        }
+        img, figcaption {
+            position: absolute
+        }
+        img {
+            width: 100%
+        }
+        figcaption {
+            top: 350px;
+            font-size: 30px;
+            padding: 5px;
+            transition: all 1s;
+            color: yellowgreen;
+        }
+    
+        figure:hover figcaption {
+            top: 40px
+        }
+        figure:hover img {
+            transform: scale(1,01)
+        }
+         
+    </style>
+    </head>
+
+<body>
+   <header>
+       <h1>Tedros</h1>
+   </header>
+   
+   <nav>
+       <a href="#section1">Home</a>
+        <a href="#section2">About</a>
+        <a href="#section3">Education</a>
+        <a href="#section4">Experience</a>
+        <a href="project2.html">Blog</a>
+        <a href="project3.html">Contact</a>
+   </nav>
+   
+   <main>
+       
+        <section>
+            <h1 id="section1">Web developer</h1>
+           <figure>
+            <img src="tedros1%20021.jpg" alt="Cologne cathedral" width="100%">
+            <figcaption>Ready to serve! from Cologne, Germany!</figcaption>
+            </figure>
+        </section>
+       
+        <section>
+            <h1 id="section2">About</h1>
+        
+            <p>My name is Tedros Ghebremichael, born on 21st november 1973 in Asmara, capital city of Eritrea.</p>
+            <p>I have studied economics and finance.</p>
+            <p>In the last seven years I have worked in a store without qualification.</p>
+            <p>Since last year I have started to study some programming languages such as sql essentials and python</p>
+            <p>Now I am studying to be a web developing and I found it intereting and decided to be a web developer</p>
+            
+        
+        </section>
+       
+        <section>
+            <h1 id="section3">Education</h1>
+      
+          
+             <table>
+          <h2>Educational background</h2>
+           <tr>
+               <th>what</th>
+               <th>where</th>
+               <th>when</th>
+           </tr>
+           <tr>
+               <td>MA Economics and finance</td>
+               <td>South Africa</td>
+               <td>2001</td>
+           </tr>
+           <tr>  
+               <td>BA Economics and finance</td>
+               <td>Eritrea</td>
+               <td>1996</td>
+           </tr>
+           
+   </table>
+            
+ 
+        </section>
+       
+        <section>
+            <h1 id="section4">Experience</h1>
+            <p>My experience of computer programming language</p>
+            <table>
+          <h2>Working experience</h2>
+           <tr>
+               <th>what</th>
+               <th>where</th>
+               <th>when</th>
+           </tr>
+           <tr>
+               <td>portofolio project</td>
+               <td>DCI Germany</td>
+               <td>2020</td>
+           </tr>
+           <tr>  
+               <td>Python</td>
+               <td>Cologne Germany</td>
+               <td>2019</td>
+           </tr>
+            <tr>
+               <td>sql essentials</td>
+               <td>Minessota USA</td>
+               <td>2018</td>
+           </tr>
+           <tr>  
+               <td>Pascal</td>
+               <td>Asmara Eritrea</td>
+               <td>1993</td>
+           </tr>
+   </table> 
+
+        </section>
+        
+      
+    </main>
+    
+</body>
+</html>

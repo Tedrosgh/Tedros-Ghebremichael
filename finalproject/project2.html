@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+         nav {
+            background-color: blue;
+            padding: 5px 5px;
+            box-shadow: 0 10px 20px #444;
+            position: sticky;
+            top: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-around
+            }
+        nav a {
+            text-decoration: inherit;
+            padding: 5px 15px;
+            color: orangered;
+            background-color: blue;
+            font-size: 20px;
+            font-family: Helvetica;
+            border-right: 6px solid cadetblue;
+            margin-left: -4px;
+        }
+        nav a:hover {
+            background-color: darkslategrey;
+            color: #fff;
+        }
+        nav a:active {
+            background: red;
+    </style>
+    <link rel="stylesheet" href="formstyle1.css">
+</head>
+<body>
+      <nav>
+        <a href="project1.html#section1">Home</a>
+        <a href="project1.html#section2">About</a>
+        <a href="project1.html#section3">Education</a>
+        <a href="project1.html#section4">Experience</a>
+        <a href="project2.html">Blog</a>
+        <a href="project3.html">Contact</a>
+   </nav>
+  <main>
+   
+    <section>
+            <h1 id="section5">Blog</h1>
+            <p>If you have any question . . .</p>
+    </section>
+    
+   </main>
+   
+   <h2>Form</h2>
+
+    <form action="">
+       <label>First Name:</label><br>      
+        <input type="text" name="firstname" required> <br><br>
+        <label>Last Name:</label><br>     
+        <input type="text" name="lastname">
+        <br><br> 
+        <label>Message:</label><br> 
+        <textarea name="message"></textarea>
+        <br><br>
+        
+
+        <input type="radio" name="gender" value="male" id="male"
+         checked> <label for="male">Male</label> <br>
+        <input type="radio" name="gender" value="female"
+         id="female"> <label for="female">Female</label> <br><br>
+        
+        <input type="email" email required><br><br>
+        <input type="submit" value="Submit">
+       
+    </form>
+
+    
+</body>
+</html>
